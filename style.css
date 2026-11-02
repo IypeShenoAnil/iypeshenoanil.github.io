@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: #101d32;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 60px auto;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    color: #82c9e8;
+    font-size: 22px;
+}
+
+p {
+    color: #c5cedb;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+footer {
+    margin-top: 80px;
+    color: #8293a9;
+    font-size: 13px;
+}
+
+/* navigation menu */
+nav {
+    display: flex;
+    /* arrange navigation links horizontally by default */
+    gap: 30px;
+    /* 30 px space between navigation items */
+    margin-bottom: 70px;
+}
+
+/* navigation links */
+nav a {
+    /* nav → navigation section
+   a → anchor (hyperlink)
+   nav a → selects all hyperlinks inside navigation section */
+    /* Navigation hover effect */
+    color: #82c9e8;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    /* style when mouse pointer moves over an element */
+    color: white;
+}
+
+.result-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: #1b2d45;
+    padding: 18px;
+    /* 18px space inside the element, between text and border */
+    margin: 15px 0;
+    /* 15px (top and bottom) & 0px (left and right) space outside the element*/
+    border-radius: 8px;
+    /* rounds corners of rectangular card (more px, more rounded) */
+}
+
+.result-link:hover {
+    background-color: #294563;
+}
